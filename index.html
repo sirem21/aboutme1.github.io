@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+            body {
+                font: Arial;
+                background: rgb(55,149,223);
+                background: linear-gradient(0deg, rgba(55,149,223,1) 3%, rgba(47,151,231,1) 28%, rgba(121,191,221,1) 100%);
+                margin: auto;
+                max-width: 800px;
+                padding: 20px;
+            }
+
+            header {
+                text-align: center;
+                color: white;
+            }
+
+            h2 {
+                font: Arial;
+                border-bottom: 2px solid;
+                padding-bottom: 5px;
+                margin-bottom: 15px;
+                color: #fff;
+                border-bottom-color:#fbf5e9
+            }
+
+            p {
+                text-shadow: color;
+                font:serif;
+            }
+
+            nav {
+                display: flex;
+                background: rgb(12,10,160);
+                background: linear-gradient(0deg, rgba(12,10,160,1) 3%, rgba(39,23,145,1) 28%, rgba(7,9,107,1) 100%);
+            }
+
+            nav a{
+                color: #fff;
+                padding: 14px 50px;
+            }
+
+    </style>
+    <meta charset="UTF-8" content="width=device-width,initial-scale=1.0" />
+    <title>aboutme</title>
+</head>
+
+<body>
+ <header>
+         <h1 style="font-size: 60px;"> İrem Şahar</h1>
+ </header>
+    <p><em>Hi! I am Irem Sahar. I am a 3rd year Computer Engineering student at Ankara Yildirim Beyazit University.
+        This page is a window into my world, so here you can learn more about me. Feel free to send me a message! I'd love to connect with you.</em></p>
+    <nav>
+            <a href='#education'>Education</a>
+            <a href='#coding'>Programming Skills</a>
+            <a href='#hobbies'>Hobbies</a>
+            <a href='#contacts'>Contact Information</a>
+    </nav>
+
+ <section id="education">
+     <h2>Education</h2>
+     <ul>
+         <li><strong>2021 - </strong>: Ankara Yildirim Beyazit University, Computer Engineering</li>
+     </ul>
+ </section>
+ <section id="coding">
+     <h2>Programming Skills</h2>
+     <ul>
+         <li><em>Java</em></li>
+         <li><em>Python</em></li>
+         <li><em>C++</em></li>
+         <li><em>HTML,CSS</em></li>
+     </ul>
+ </section>
+ <section id="hobbies">
+     <h2><strong>Hobbies</strong></h2>
+     <ul>
+         <li><u><strong>Learning new languages</strong></u>
+             <p><em>I know 4 languages
+             <ul>
+                 <li>Turkish</li>
+                 <li>Russian</li>
+                 <li>English</li>
+                 <li>Romanian</li>
+             </ul>
+             Learning languages is more than a hobby,so it's an exciting journey into different cultures.
+                 Surely,each language offers a unique gateway to understanding the world.The next language, that I want to learn is Dutch.</em></p></li><br>
+         <li><u><strong>Travelling</strong></u>
+             <p><em>Equally captivating is my love for traveling. For the last years I visited 5 countries, but this is only beginning! One of the my big dreams is to repeat the path of Cassandra De Pecol, who went to every country in the world.</em></p>
+             <ol>
+                 <p><u>My top 5 of countries,which I want to visit</u> </p>
+                 <li>Portugal</li>
+                 <li>Italy</li>
+                 <li>Argentina</li>
+                 <li>Sweden</li>
+                 <li>Iceland</li>
+
+            </ol></li><br>
+         <li><u><strong>Knitting</strong></u></li>
+         <p><em> Knitting allows me to express my creativity through various stitches, patterns, and designs, while also providing a means to produce functional and beautiful items such as clothing and home decor.
+             Beyond its practical aspects, knitting fosters mindfulness and focus, offering a calming escape from the stresses of daily life.
+         </em></p>
+     </ul>
+ </section>
+ <section id="contacts">
+     <h2><strong>Contact Information</strong></h2>
+     <ol>
+         <li><strong>Phone Number: </strong>+905447900430</li>
+         <li><strong>Email: </strong>iremsahar1@gmail.com</li>
+         <li><strong>LinkedIn: </strong><a href="https://www.linkedin.com/in/irem-şahar-00aa962a2" target="_blank">Irem Sahar</a></li>
+     </ol>
+         <h2>Here you can leave a message about yourself or ask me a question</h2>
+         <form id="message-form">
+             <label for="name">Your Name:</label>
+             <input type="text" id="name" name="name"><br><br>
+             <label for="message">Message:</label>
+             <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+             <input type="submit" value="Submit">
+         </form>
+
+ </section>
+</body>
+</html>
